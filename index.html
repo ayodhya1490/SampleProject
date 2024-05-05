@@ -1,8 +1,692 @@
-<h1>Hellow world</h1>
-<p>My first class of the DevOps</p>
+﻿<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html class="ie ie6 no-js" lang="en"> <![endif]-->
+<!--[if IE 7 ]>    <html class="ie ie7 no-js" lang="en"> <![endif]-->
+<!--[if IE 8 ]>    <html class="ie ie8 no-js" lang="en"> <![endif]-->
+<!--[if IE 9 ]>    <html class="ie ie9 no-js" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
 
- <form action="">
-    <input type="name" value="name" placeholder="namme">
-    <button class="btn btn-primary">Submit The Button</button>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <!-- Metas Page details-->
+    <title>Ayodhya Pendem - Portfolio</title>
+    <meta name="description" content="Ayodhya Pendem Portfolio">
+    <meta name="keywords"
+        content="Storyboarding, Interaction Design, Front End Design, Prototype Design, Usability Design, Digital, Illustration Design, User Experience (UX), UX Research, Wireframe, Prototype, User Experience Design (UXD), Usability Testing, mockup, Figma, Adobe XD, UX design jobs">
+    <meta name="author" content="Ayodhya Pendem">
+    <!-- Mobile Specific Metas-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--main style-->
+    <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css">
+    <link rel="icon" type="image/png" href="images/logo_icon.png" />
+    <!--google font style-->
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <!--font-family: 'Metrophobic', serif;-->
+    <link
+        href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic'
+        rel='stylesheet' type='text/css'>
+    <!--font-family: 'Open Sans', sans-serif;-->
+    <!-- font icon css style-->
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-FK2ZKZBG7N"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-FK2ZKZBG7N');
+    </script>
+</head>
 
- </form>
+<body onLoad="load()" onUnload="GUnload()">
+    <!-- Preloader -->
+    <div id="preloader">
+        <div id="status"></div>
+    </div>
+    <!--wrapper start-->
+    <div class="wrapper" id="wrapper">
+        <!--Header start -->
+        <header>
+            <!--banner start-->
+            <div class="banner row" id="banner">
+                <!--Css Animation start -->
+                <div id="da-slider" class="da-slider">
+                    <div class="da-slide">
+                        <h2>I’m <span>Ayodhya Pendem</span></h2>
+                        <h3>UI & UX Designer</h3>
+                        <p>Gathering, looking up, examining, and analysing user requirements</p>
+                        <a href="#myexperties" class="da-link">What i do</a>
+                        <div class="da-img"></div>
+                    </div>
+                    <div class="da-slide">
+                        <h2><span>More </span>activities </h2>
+                        <h3>Design + Develop + Branding</h3>
+                        <p>Highly talented in creative and innovative design solutions. </p>
+                        <a href="#ourwork" class="da-link">My work</a>
+                        <div class="da-img"></div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 noPadd slides-container" style="height:100%">
+                    <div class="slide">
+                        <img src="images/myimage.jpg" alt="image01">
+                    </div>
+                </div>
+            </div>
+            <div class="menu">
+                <div class="navbar-wrapper">
+                    <div class="container">
+                        <div class="navwrapper">
+                            <div class="navbar navbar-inverse navbar-static-top">
+                                <div class="container">
+                                    <!--<div class="logo">logo</div> -->
+                                    <div class="navArea">
+                                        <div class="navbar-header">
+                                            <button type="button" class="navbar-toggle" data-toggle="collapse"
+                                                data-target=".navbar-collapse"> <span class="icon-bar"></span> <span
+                                                    class="icon-bar"></span> <span class="icon-bar"></span> </button>
+                                            <!-- <a class="navbar-brand" href="#">Menu</a>  -->
+                                        </div>
+                                        <div class="navbar-collapse collapse">
+                                            <ul class="nav navbar-nav">
+                                                <li class="menuItem active"><a href="#wrapper">Home</a></li>
+                                                <li class="menuItem"><a href="#aboutus">About Me</a></li>
+                                                <li class="menuItem"><a href="#skillset">skillset</a></li>
+                                                <li class="menuItem"><a href="#experience">Experience</a></li>
+                                                <li class="menuItem"><a href="#ourwork">Expertise</a></li>
+                                                <li class="menuItem"><a href="#caseStudies">Case Study</a></li>
+                                                <li class="menuItem"><a href="#projects">Projects</a></li>
+                                                <li class="menuItem"><a href="#contact">Contact</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Navbar -->
+                    </div>
+                </div>
+            </div>
+            <!--menu end-->
+        </header>
+        <!--Header end -->
+        <!--about us start-->
+        <section class="aboutus" id="aboutus">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="heading list-inline">
+                            <h2>About me</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class=" col-lg-4 col-md-4 col-sm-4 col-xs-12 pull-right media"><img src="images/profile.jpg"
+                            class="img-circle" alt=""></div>
+                    <div class=" col-lg-7 col-md-7 col-sm-7 col-xs-12 pull-left media">
+                        <h3>Ayodhya Pendem</h3>
+                        <h4>Senior UI UX Designer</h4>
+                        <p>A smart, high-energy technocrat with a successful background in setting a direction for major
+                            systems to establish and transform service delivery excellence in User Interface and User
+                            Experience Design platforms.</p>
+                        <p><a href="images/Ayodhya_Pendem.docx" role="button"
+                                style="font-size:16px; padding: 10px 30px; border-radius: 50px;"
+                                class="btn btn-primary btn-lg" download> Resume &nbsp; &nbsp;<i
+                                    class="fa fa-download"></i></a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Skillset start -->
+        <section class="skillset" id="skillset">
+            <div class="container">
+                <div class="heading">
+                    <h2>Skills </h2>
+                    <div class="row">
+                        <div class="skills col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                            <canvas class="htmlcssskill"></canvas>
+                            <h3>HTML & CSS</h3>
+                            <p>Make a website and Apps</p>
+                        </div>
+                        <div class="skills col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                            <canvas class="bootstapkill"></canvas>
+                            <h3>Bootstrap</h3>
+                            <p>All-devices responsive website</p>
+                        </div>
+                        <div class="skills col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                            <canvas class="javascriptoptin"></canvas>
+                            <h3>Angular, React JS</h3>
+                            <p>Basic Knowledge</p>
+                        </div>
+                        <div class="skills col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                            <canvas class="wordpress"></canvas>
+                            <h3>Wordpress</h3>
+                            <p>Website development</p>
+                        </div>
+                    </div>z
+                    <br /><br />
+                    <div class="row">
+                        <div class="skills col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                            <canvas class="addobeXd"></canvas>
+                            <h3>Adobe XD, Figma</h3>
+                            <p>Wirefram, Mockup and Prototype</p>
+                        </div>
+                        <div class="skills col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                            <canvas class="photoshopskill"></canvas>
+                            <h3>Photoshop</h3>
+                            <p>Visual inventions and image colour correction</p>
+                        </div>
+                        <div class="skills col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                            <canvas class="indesignskill"></canvas>
+                            <h3>Indesign</h3>
+                            <p>Visual projects, documentaries, and magazines</p>
+                        </div>
+                        <div class="skills col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                            <canvas class="illustratorskill"></canvas>
+                            <h3>Illustrator</h3>
+                            <p>Visual compositions and vector elements </p>
+                        </div>
+                    </div>
+                    <h4>Additional Knowledge</h4>
+                    <div class="row">
+                        <div class="skills col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                            <canvas class="MagazineDesigne"></canvas>
+                            <h3>Digital Marketing</h3>
+                        </div>
+                        <div class="skills col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                            <canvas class="hybridApps"></canvas>
+                            <h3>Web, Native and Hybrid Aplication </h3>
+                        </div>
+                        <div class="skills col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                            <canvas class="branding"></canvas>
+                            <h3>Branding</h3>
+                        </div>
+                        <div class="skills col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                            <canvas class="visualDesigning"></canvas>
+                            <h3>Visual Designing</h3>
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="skills col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                            <canvas class="agileskill"></canvas>
+                            <h3>Azure DevOps </h3>
+                        </div>
+                        <div class="skills col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                            <canvas class="scrum"></canvas>
+                            <h3>Agile/Scrum process </h3>
+                        </div>
+                        <div class="skills col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                            <canvas class="businessAnalyst"></canvas>
+                            <h3>Magazine Designs</h3>
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- My Expertise -->
+
+        <section class="experience" id="experience">
+            <div class="container">
+                <div class="heading">
+                    <h2>Experience </h2>
+                    <h3>
+                        A dedicated expert with more than 15 years ’ experience in the various stages of UI UX Design,
+                        Development, Digital Marketing, and Automation (CRM).
+                    </h3>
+                </div>
+                <div class="row media">
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                                <div class="experdate">April 2019 <br />Present</div>
+                            </div>
+                            <div class="experdesc col-xs-12 col-sm-12 col-md-8 col-lg-8">
+                                <h4>C2S Technology</h4>
+                                <h5>Senior UI/UX Designer</h5>
+                                <p>Creating visual design solutions from conception to execution, including developing
+                                    concepts and UX Screens. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                                <div class="experdate">Dec 2018<br />March 2019</div>
+                            </div>
+                            <div class="experdesc col-xs-12 col-sm-12 col-md-8 col-lg-8">
+                                <h4>OI Digital</h4>
+                                <h5>UI Designer</h5>
+                                <p>Creating both digital and print design for a variety of print and online campaigns</p>
+                            </div>
+                        </div>
+                    </div>
+             
+
+                </div>
+                <div class="row media">
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                                <div class="experdate">April 2016 <br />Nov 2018</div>
+                            </div>
+                            <div class="experdesc col-xs-12 col-sm-12 col-md-8 col-lg-8">
+                                <h4>TECH STAR GROUP </h4>
+                                <h5>Senior Digital Designer (UX)</h5>
+                                <p>Using HTML 5, CSS3, Bootstrap, and Framework, interactive consumer high interactive
+                                    content was developed.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                                <div class="experdate">May 2010 <br />March 2016</div>
+                            </div>
+                            <div class="experdesc col-xs-12 col-sm-12 col-md-8 col-lg-8">
+                                <h4>TECH MAHINDRA </h4>
+                                <h5>Digital Designer (SME) </h5>
+                                <p>Responsible for developing and creating both digital and print design for a wide
+                                    range of print and online campaigns, publications and advertising.</p>
+                            </div>
+                        </div>
+                    </div>
+             
+                </div>
+                <div class="row media">
+
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                                <div class="experdate">June 2007<br />Oct 2009</div>
+                            </div>
+                            <div class="experdesc col-xs-12 col-sm-12 col-md-8 col-lg-8">
+                                <h4>EYANTRA </h4>
+                                <h5>UI Designer</h5>
+                                <p>used HTML5, CSS3, Bootstrap, and Framework to develop interactive, highly engaging
+                                    content for consumers.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                                <div class="experdate">March 2008<br />Oct 2009</div>
+                            </div>
+                            <div class="experdesc col-xs-12 col-sm-12 col-md-8 col-lg-8">
+                                <h4>Ochre-Media <br />(Part of ILABS Group)</h4>
+                                <h5>Visualiser and Designer</h5>
+                                <p>Creating graphic design solutions from inception to execution, including developing
+                                    ideas and artwork. magazines that design</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                </div>
+                <div class="row media">
+
+            
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                                <div class="experdate">June 2007<br />Feb 2008</div>
+                            </div>
+                            <div class="experdesc col-xs-12 col-sm-12 col-md-8 col-lg-8">
+                                <h4>Visage Media <br />(Part of ILABS Group)</h4>
+                                <h5>Production Executive</h5>
+                                <p>Digital photographs, classic photochemical photographs, illustrations, and all other
+                                    types of images can be edited in many ways.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section class="protfolio" id="ourwork">
+            <div class="container">
+                <div class="heading">
+                    <h2>Expertises </h2>
+
+                </div>
+                <div class="row">
+
+                    <div class="project  col-md-6 col-lg-6">
+                        <div class="card">
+                            <img class="img-responsive" width="90%" src="images/Web-Application.jpg">
+                            <div class="card-body" style="margin-left: 12px;">
+                                <h5 class="card-title"><strong style="color: #fff; ">UI Design</strong></h5>
+                                <p class="card-text " style="color: aliceblue; ">Responsible for the development and
+                                    design of a variety of internet initiatives. Developed interactive consumer content
+                                    with a high level of interactivity.</p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project col-md-6 col-lg-6">
+                        <div class="card">
+                            <img class="img-responsive" width="90%" src="images/UX-design.jpg">
+                            <div class="card-body" style="margin-left: 12px;">
+                                <h5 class="card-title"><strong style="color: #fff; ">UX Design</strong></h5>
+                                <p class="card-text " style="color: aliceblue; ">The user is at the centre of the user
+                                    experience best practises for a good UX. The greatest websites, for example, make
+                                    finding features simple for consumers.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project  col-md-6 col-lg-6">
+                        <div class="card">
+                            <img class="img-responsive" width="90%" src="images/Brand-Storytelling.jpg">
+                            <div class="card-body" style="margin-left: 12px;">
+                                <h5 class="card-title"><strong style="color: #fff; ">Brand Storytelling </strong></h5>
+                                <p class="card-text " style="color: aliceblue; ">Top brands today adopt narrative
+                                    because they recognize its importance. Case studies, presentations, webinars,
+                                    podcasts, and other forms of brand storytelling are examples.
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project  col-md-6 col-lg-6">
+                        <div class="card">
+                            <img class="img-responsive" width="90%" src="images/Marketing-Collateral.jpg">
+                            <div class="card-body" style="margin-left: 12px;">
+                                <h5 class="card-title"><strong style="color: #fff; ">Marketing Collateral </strong></h5>
+                                <p class="card-text " style="color: aliceblue; ">Customers can learn more about your
+                                    company by interacting with marketing material, which is a collection of critical
+                                    interaction components.</p>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+
+            </div>
+        </section>
+        <section class="caseStudies" id="caseStudies">
+            <div class="container">
+                <div class="heading">
+                    <h2>Case Study</h2>
+                    <h4>A collection of ECO product usage history data from product users</h4>
+                    <hr />
+                </div>
+                <div class="row ">
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                        <div class="card">
+                            <img class="img-responsive" src="images/farmerApp.jpg" alt="Card image">
+                            <div class="card-body">
+                                <h4 class="card-title" style="margin-top: 20px;"> Farmer Advice App</h4>
+                                <p class="card-text " style="text-align: justify;">Played key role in developing Farmer
+                                    app that helps farmers of citrus tree plantations to monitor the health status of
+                                    every single tree in the plantation.
+                                </p>
+                                <a href="farmerApp.html" role="button"
+                                    style="font-size:16px; padding: 10px 30px; border-radius: 50px; margin-bottom: 20px;"
+                                    class="btn btn-primary btn-lg"> More Details </i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                        <div class="card">
+                            <img class="img-responsive" src="images/global-eco.jpg" alt="Card image" style="width:100%">
+                            <div class="card-body">
+                                <h4 class="card-title" style="margin-top: 20px;">ECO Products</h4>
+                                <p class="card-text " style="text-align: justify;">Helped ECO App in developing a
+                                    dedicated app to capture customer feedback on their eco-friendly products
+                                </p>
+                                <a href="ecoProductApp.html" role="button"
+                                    style="font-size:16px; padding: 10px 30px; border-radius: 50px;"
+                                    class="btn btn-primary btn-lg"> More Details </i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="protfolio" id="projects">
+            <div class="container">
+                <div class="heading">
+                    <h2>Projects </h2>s
+                    <h3>Project management responsibilities include the coordination and completion of projects on time
+                        within budget and within scope. Oversee all aspects of projects. Set deadlines, assign
+                        responsibilities, and monitor and summarize the progress of the project.
+                    </h3>
+                </div>
+                <div class="row">
+                    <div class="project col-xs-6 col-sm-4 col-md-2 col-lg-2">
+                        <a target="_blank" href="http://savrdesign.com/">
+                            <img src="images/web/savr.jpg">
+                        </a>
+                    </div>
+                    <div class="project col-xs-6 col-sm-4 col-md-2 col-lg-2">
+                        <a target="_blank" href="https://watelangana.org/">
+                            <img src="images/web/watg.jpg">
+                        </a>
+                    </div>
+                    <div class="project col-xs-6 col-sm-4 col-md-2 col-lg-2">
+                        <a target="_blank" href="https://codex.navizanalytics.com/">
+                            <img src="images/web/codex.jpg">
+                        </a>
+                    </div>
+                    <div class="project col-xs-6 col-sm-4 col-md-2 col-lg-2">
+                        <a target="_blank" href="https://navizanalytics.com/">
+                            <img src="images/web/naviz.jpg">
+                        </a>
+                    </div>
+                    <div class="project col-xs-6 col-sm-4 col-md-2 col-lg-2">
+                        <a target="_blank" href="https://samhitha.ag/">
+                            <img src="images/web/samhitha.jpg">
+                        </a>
+                    </div>
+                    <div class="project col-xs-6 col-sm-4 col-md-2 col-lg-2">
+                        <a target="_blank" href="https://www.gullyactive.com/">
+                            <img src="images/web/gully.jpg">
+                        </a>
+                    </div>
+                </div>
+                <br />
+                <div class="row">
+                    <div class="project col-xs-6 col-sm-4 col-md-2 col-lg-2">
+                        <a target="_blank" href="http://www.nfolks.com/">
+                            <img src="images/web/nfolks.jpg">
+                        </a>
+                    </div>
+                    <div class="project col-xs-6 col-sm-43 col-md-2 col-lg-2">
+                        <a target="_blank" href="https://www.c2stechs.com/">
+                            <img src="images/web/c2s.jpg">
+                        </a>
+                    </div>
+                    <div class="project col-xs-6 col-sm-4 col-md-2 col-lg-2">
+                        <a target="_blank" href="https://www.ganeshutsav.org/">
+                            <img src="images/web/ganesh.jpg">
+                        </a>
+                    </div>
+                    <div class="project col-xs-6 col-sm-4 col-md-2 col-lg-2">
+                        <a target="_blank" href="https://techstargroup.com/">
+                            <img src="images/web/techstar.jpg">
+                        </a>
+                    </div>
+                    <div class="project col-xs-6 col-sm-4 col-md-2 col-lg-2">
+                        <a target="_blank" href="http://www.techdimension.in/">
+                            <img src="images/web/techd.jpg">
+                        </a>
+                    </div>
+                    <div class="project col-xs-6 col-sm-4 col-md-2 col-lg-2">
+                        <a target="_blank" href="http://www.appthea.com/#/home">
+                            <img src="images/web/apthea.jpg">
+                        </a>
+                    </div>
+                </div>
+                <br />
+                <div class="row">
+                    <div class="project col-xs-6 col-sm-4 col-md-2 col-lg-2">
+                        <a target="_blank" href="http://ilahomegardens.com/">
+                            <img src="images/web/ila.jpg">
+                        </a>
+                    </div>
+                    <div class="project col-xs-6 col-sm-4 col-md-2 col-lg-2">
+                        <a target="_blank" href="https://citron.samhitha.ag/login">
+                            <img src="images/web/citron.jpg">
+                        </a>
+                    </div>
+                    <div class="project col-xs-6 col-sm-4 col-md-2 col-lg-2">
+                        <img src="images/web/astu.jpg">
+                    </div>
+                </div>
+                <!-- <div class="row" style="margin:4% 0%;">
+                    <a href="profile.html"><button class="btn btn-danger"
+                            style="font-size:16px; padding: 10px 30px; border-radius: 50px;">More Visuals &nbsp;
+                            &nbsp;<i class="fa fa-arrow-right" aria-hidden="true"></i></button></a>
+                </div> -->
+            </div>
+        </section>
+        <section class="contact" id="contact">
+            <div class="container">
+                <div class="heading">
+                    <h2>Get In Touch </h2>
+                    <h3>If you are here. Please call me right away else provide your contact details and we shall
+                        contact you...</h3>
+                </div>
+                <div class="row media">
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 conForm">
+                        <h3>Contact Details</h3>
+                        <p>
+                            <a href="tel:817-939-1719">+91 817 939 1719</a><br />
+                            <a href="tel:986-603-2006">+91 986 603 2006</a><br />
+                            <a href="mailto: ayodhyapendem@gmail.com">ayodhyapendem@gmail.com</a>
+                        </p>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                        <h3>Address</h3>
+                        <p style="">
+                            Plot No 7, Road No 2, Sheshadri Nagar<br />Vivekananda Nagar, Kukatpally<br />Hyderabad,
+                            Telangana - 500 072
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contactDetails">
+        </section>
+        <div class="row mapArea">
+            <div id="map" style="width: 100%; height: 100%">
+                <iframe
+                    src="https://maps.google.com/maps?q=sheshadri%20nagar%20community%20hall&t=&z=11&ie=UTF8&iwloc=&output=embed"
+                    frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+        </div>
+        <!--contact end-->
+        <!--footer start-->
+        <section class="footer" id="footer">
+            <div class="container">
+                <ul>
+                    <li><a target="_blank" href="https://www.linkedin.com/in/ayodhyapendem/"><i
+                                class="fa fa-linkedin fa-3x"></i></a></li>
+                </ul>
+                <p>
+                    © 2017 All Rights Reserved.<br> Design created by Ayodhya Pendem
+                </p>
+            </div>
+            <p class="text-center"><a href="#wrapper" class="gototop"><i class="fa fa-chevron-up fa-2x"></i></a></p>
+        </section>
+        <!--footer end-->
+    </div>
+    <!--wrapper end-->
+    <!--modernizr js-->
+    <script type="text/javascript" src="js/modernizr-latest.js"></script>
+    <!--jquary min js-->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <!--for placeholder jquery-->
+    <script type="text/javascript" src="js/jquery.placeholder.js"></script>
+    <!--for header jquery-->
+    <script type="text/javascript" src="js/stickUp.js"></script>
+    <script src="js/jquery.superslides.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript" src="js/jquery.cslider.js"></script>
+    <script type="text/javascript">
+        jQuery(function ($) {
+            $(document).ready(function () {
+                //enabling stickUp on the '.navbar-wrapper' class
+                $('.navbar-wrapper').stickUp({
+                    parts: {
+                        0: 'banner',
+                        1: 'aboutus',
+                        2: 'skillset',
+                        3: 'experience',
+                        4: 'ourwork',
+                        5: 'caseStudies',
+                        6: 'projects',
+                        7: 'contact'
+                    },
+                    itemClass: 'menuItem',
+                    itemHover: 'active',
+                    topMargin: 'auto'
+                });
+            });
+            $('#da-slider').cslider({
+                autoplay: true,
+                bgincrement: 0,
+                interval: 5000
+            });
+        });
+    </script>
+    <script>
+        $('#banner').superslides({
+            animation: 'fade',
+            play: false
+        });
+    </script>
+    <!--for portfolio jquery-->
+    <script src="js/jquery.isotope.js" type="text/javascript"></script>
+    <link type="text/css" rel="stylesheet" id="theme" href="css/jquery-ui-1.8.16.custom.css">
+    <link type="text/css" rel="stylesheet" href="css/lightbox.min.css">
+    <script type="text/javascript" src="js/jquery.ui.widget.min.js"></script>
+    <script type="text/javascript" src="js/jquery.ui.rlightbox.js"></script>
+    <!--contact form js-->
+    <script type="text/javascript" src="js/jquery.contact.js"></script>
+    <script type="text/javascript">
+        //<![CDATA[
+        var map;
+        function load() {
+            if (GBrowserIsCompatible()) {
+                map = new GMap2(document.getElementById("map"));
+                map.setCenter(new GLatLng(-37.817682, 144.957595), 13);
+                document.getElementById("map").checked = true;
+                toggleZoom(false);
+            }
+        }
+        function toggleZoom(isChecked) {
+            if (isChecked) {
+                map.enableScrollWheelZoom();
+            } else {
+                map.disableScrollWheelZoom();
+            }
+        }
+        //]]>
+    </script>
+    <!--about jquery-->
+    <script src="js/jquery.classyloader.min.js"></script>
+    <script defer src="js/jquery.flexslider.js"></script>
+    <script src="js/jquery.easing.js"></script>
+    <script src="js/jquery.mousewheel.js"></script>
+    <script defer src="js/slideroption.js"></script>
+    <script type="text/javascript" src="switcher/js/jquery.cookie.js"></script>
+    <!-- jQuery cookie -->
+    <!--for theme custom jquery-->
+    <script src="js/custom.js"></script>
+</body>
+
+</html>
